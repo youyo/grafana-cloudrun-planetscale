@@ -1,0 +1,10 @@
+.direnv/
+.env*
+.git*
+.tool*
+.docker*
+Dockerfile
+docker*
+test*
+secrets/
+docs/
