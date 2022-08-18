@@ -12,6 +12,8 @@ ENV GF_LIVE_MAX_CONNECTIONS=0
 ENV GF_INSTALL_PLUGINS=grafana-timestream-datasource
 #ENV GF_DATABASE_USER
 #ENV GF_DATABASE_PASSWORD
+ENV GF_REMOTE_CACHE_TYPE=redis
+#ENV GF_REMOTE_CACHE_CONNSTR
 
 RUN wget -O /tmp/BaltimoreCyberTrustRoot.crt.pem https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem
 
