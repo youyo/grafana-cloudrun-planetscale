@@ -10,7 +10,6 @@ ENV GF_DATABASE_CA_CERT_PATH=/tmp/BaltimoreCyberTrustRoot.crt.pem
 ENV GF_DATABASE_HOST=wpaazg9z5ov8.ap-northeast-2.psdb.cloud
 ENV GF_LIVE_MAX_CONNECTIONS=0
 ENV GF_INSTALL_PLUGINS=grafana-timestream-datasource
-#ENV GF_DATABASE_NAME
 #ENV GF_DATABASE_USER
 #ENV GF_DATABASE_PASSWORD
 
